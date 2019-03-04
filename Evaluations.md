@@ -56,3 +56,41 @@ The end of training!
 Test accuracy: 0.97
 Validation accuracy: 0.9684
 ```
+
+## 2 Convolutional layers
+`src/convolutional-2.py`
+
+```
+Step 0, training batch accuracy 0.06
+Step 100, training batch accuracy 0.85
+Step 200, training batch accuracy 0.89
+Step 300, training batch accuracy 0.92
+Step 400, training batch accuracy 0.95
+Step 500, training batch accuracy 0.95
+Step 600, training batch accuracy 0.97
+Step 700, training batch accuracy 0.97
+Step 800, training batch accuracy 0.98
+Step 900, training batch accuracy 0.95
+The end of training!
+Test accuracy: 0.9791
+Validation accuracy: 0.9778
+```
+
+## Dropout layer
+`src/dropout.py`
+
+```
+Step 0, training batch accuracy 0.06
+Step 100, training batch accuracy 0.92
+Step 200, training batch accuracy 0.94
+Step 300, training batch accuracy 0.98
+Step 400, training batch accuracy 0.96
+Step 500, training batch accuracy 0.96
+Step 600, training batch accuracy 0.99
+Step 700, training batch accuracy 0.99
+Step 800, training batch accuracy 0.97
+Step 900, training batch accuracy 0.94
+The end of training!
+Test accuracy: 0.9785
+Validation accuracy: 0.978
+```
